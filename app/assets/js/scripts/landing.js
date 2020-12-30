@@ -688,7 +688,7 @@ function dlAsync(login = true){
                     if(SERVER_JOINED_REGEX.test(data)){
                         DiscordWrapper.updateDetails('Exploring the Realm!')
                     } else if(GAME_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('Sailing to Westeros!')
+                        DiscordWrapper.updateDetails('Joining the server!')
                     }
                 }
 

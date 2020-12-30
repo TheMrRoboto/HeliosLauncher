@@ -108,9 +108,7 @@ function createWindow() {
         },
         backgroundColor: '#171614'
     })
-
-    ejse.data('bkid', Math.floor((Math.random() * fs.readdirSync(path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')).length)))
-
+    
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'app', 'app.ejs'),
         protocol: 'file:',
